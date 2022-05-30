@@ -14,8 +14,10 @@ public class Q1_Priority {
       enabled = false  methodu : Testi gormezden gelmek icin @Test in yanina    '(enabled = false)' fonksiyonunu kullaniriz.
      */
 
-
+    @Test
+    public void test01() {
 
     }
+}
 
 
