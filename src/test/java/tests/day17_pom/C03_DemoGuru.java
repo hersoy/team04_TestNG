@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.DemoGuruPage;
 import utilities.Driver;
 
-public class C03 {
+public class C03_DemoGuru {
 
     /*
     http://demo.guru99.com/test/drag_drop.html url e git

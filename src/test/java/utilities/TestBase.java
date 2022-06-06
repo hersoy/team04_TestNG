@@ -14,7 +14,7 @@ public abstract class TestBase {
     protected WebDriver driver;
 
     @BeforeMethod
-    public void detup(){
+    public void setup(){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().window().maximize();

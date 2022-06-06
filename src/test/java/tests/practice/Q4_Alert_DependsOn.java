@@ -4,6 +4,8 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import pages.UniversityPage;
+import utilities.Driver;
 import utilities.TestBase;
 
 public class Q4_Alert_DependsOn extends TestBase {
@@ -25,6 +27,17 @@ public class Q4_Alert_DependsOn extends TestBase {
      // 7. "You pressed Cancel!" yazisinin goruntulendigini dogrulayin
      // 8. alert1'e göre dependsOnMethods kullanın
  */
+
+    @Test
+    public void test01() {
+        UniversityPage universityPage=new UniversityPage();
+        Driver.getDriver().get("http://webdriveruniversity.com/Popup-Alerts/index.html");
+        Driver.getDriver().switchTo().alert().accept();
+
+        universityPage.jSAlertButon.click();
+
+
+    }
 
 }
 

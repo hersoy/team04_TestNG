@@ -13,7 +13,7 @@ public class C02_MotelClass {
 
         // 1) Bir test method olustur positiveLoginTest()
         // https://www.hotelmycamp.com/ adresine git
-        Driver.getDriver().get("https://www.hotelmycamp.com/");
+        Driver.getDriver().get("https://www.hotelmycamp.com");
         // login butonuna bas
         motelPage.login.click();
         // test data username: manager

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="istenen classes'lari Calistirma">
+    <test name="istenen classlar">
+        <classes>
+            <class name="tests.day17_pom.C02_MotelClass"></class>
+            <class name="tests.day16_notasyon.C01_priority"></class>
+        </classes>
+    </test>
+</suite>

@@ -28,7 +28,7 @@ public class C02_DependsOnMethod {
 
     @Test
     public void test01() {
-        driver.get("https://www.gettigediyor.com");
+        driver.get("https://www.gittigidiyor.com");
     }
 
     @Test(dependsOnMethods = "test01")      // test01'e bagladigimiz icin test01 calismayinca bu testi direk gecer.
